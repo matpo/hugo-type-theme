@@ -2,9 +2,9 @@
 	<div class="branding">
 		<a href="{{ .Site.BaseURL }}">
 		{{ with .Site.Params.gravatar -}}
-			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt="avatar"/>
+			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt="{{ .Site.Params.logoAlt }}"/>
 		{{- else -}}
-			<img class="avatar" src="{{ .Site.Params.avatar | absURL }}" alt="Gifing Affiliation"/>
+			<img class="avatar" src="{{ .Site.Params.avatar | absURL }}" alt="{{ .Site.Params.logoAlt }}"/>
 		{{- end }}
 		</a>
 		<span class="logo-right">/ Le blog</span>
