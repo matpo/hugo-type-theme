@@ -1,5 +1,5 @@
 <p class="meta">
-	{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
+	<!-- {{ .Date.Format "2 January, 2006" }} &middot; --> {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
 
 	{{ if isset .Params "tags" -}}
 		{{ $tagsLen := len .Params.tags }}

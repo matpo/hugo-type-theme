@@ -7,6 +7,28 @@
 /* needed for chroma-based highlight */
 div.highlight > pre {padding: 10px;font-size: 0.8em;}
 
+.site-header .avatar {
+	width: auto;
+	margin-top: 20px;
+}
+
+.site-header {
+	padding: 0 1rem;
+}
+
+.logo-right {
+	margin-top: 34px;
+    position: absolute;
+}
+
+.call-out {
+	background-color: #6265DF;
+}
+
+.call-out a {
+	color: inherit;
+}
+
 p code,
 li code {
 	/* colors derived from dracula */
