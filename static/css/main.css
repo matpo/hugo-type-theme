@@ -21,6 +21,21 @@ div.highlight > pre {padding: 10px;font-size: 0.8em;}
     position: absolute;
 }
 
+.site-header .site-nav ul {
+	margin-bottom: 10px;
+}
+.site-header .site-nav li {
+	margin-top: 24px;
+	margin-right: 10px;
+}
+.site-header .site-nav li a:hover {
+	text-decoration: underline;
+}
+.site-header .site-nav li .button {
+	margin: 0;
+	margin-top: -11px;
+}
+
 .call-out {
 	background-color: #6265DF;
 }
